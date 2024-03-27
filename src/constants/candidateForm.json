@@ -1,13 +1,3 @@
-# 2 days assignment for frontend engineer
-
-We want to create a small react application which parses a Json, creates a dynamic form based on Json definition,
-applies certain validation rules, handles form submit and post the form to an API. The forms should also support preserving inputs given at various section and the refresh of the page must not loose the values entered by a user so far.
-
-You are free to use latest or recent react version, use any of the CSS framework bootstrap, tailwind etc, use typescript to write application, use any dependencies to complete work, application must compile with typescript 'strict' settings and should be able to generate forms correctly.
-
-The Json template used to generate form is given below:
-
-```json
 {
   "form_header": "Let's get to know you better",
   "fields": [
@@ -131,26 +121,3 @@ The Json template used to generate form is given below:
     }
   ]
 }
-```
-
-When you parse above Json it should produce an output similar to following:
-
-![Expected Output](expected_output.png)
-
-There are no styles in image. Assumption is the CSS framework that you'll be using should be able to take care of styling.
-
-The application ideally should be able to read any type of Json given in any format and should be able to generate the form elements and handle form submit properly. You can keep this Json in a `.json` file and read it or you can consume from an API if that's you prefer. Please note the all fields that belong to a particular section must be rendered together.
-
-## Judgement Criteria
-
-- How modular is your code?
-- How well components are written?
-- Have you written reusable components?
-- Are there any tests?
-
-## Submission
-
-You have two options:
-
-A. Zip your code without node_modules and mail to us.
-B. Check-in this code on github and share the link.
